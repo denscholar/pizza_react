@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   const hour = new Date().getHours();
-  const openHours = 12;
+  const openHours = 7;
   const closingHours = 23;
   const isOpen = hour >= openHours && hour <= closingHours;
 
